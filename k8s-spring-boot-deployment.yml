@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: rcc650/jhooq-docker-demo
+          image: rcc650/jhooq-docker-demo:#VERSION#
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
